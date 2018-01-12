@@ -1,3 +1,9 @@
+"use strict";
+cc._RF.push(module, '5b6fan+H/tIqbE2Ygpl7Di6', 'NewScript');
+// Texture/NewScript.js
+
+"use strict";
+
 cc.Class({
     extends: cc.Component,
 
@@ -15,12 +21,12 @@ cc.Class({
     },
 
     // use this for initialization
-    onLoad: function () {
-
-    },
+    onLoad: function onLoad() {}
 
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
 
     // },
 });
+
+cc._RF.pop();

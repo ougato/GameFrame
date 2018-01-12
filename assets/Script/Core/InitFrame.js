@@ -40,5 +40,6 @@ cc.Class({
      */
     initFrame() {
         require( "Global" );
+        require( "Test" );
     },
 });
