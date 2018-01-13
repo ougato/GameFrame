@@ -31,6 +31,14 @@ let EventNode = cc.Class({
     },
 
     /**
+     * 获取脚本对象
+     * @returns {null|*}
+     */
+    getScript() {
+        return this.m_objScript;
+    },
+
+    /**
      * 获取下一个事件节点对象
      * @returns {null}
      */

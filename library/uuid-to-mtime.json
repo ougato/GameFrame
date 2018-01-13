@@ -265,12 +265,12 @@
     "relativePath": "Prefab\\NewScript.js"
   },
   "21ece354-52f4-417e-abe5-2b88012aab53": {
-    "asset": 1515778833492,
+    "asset": 1515787032064,
     "meta": 1515722414000,
     "relativePath": "Script"
   },
   "99ae824c-a65b-4615-8818-69eb3a976b20": {
-    "asset": 1515778833586,
+    "asset": 1515786857657,
     "meta": 1515722414000,
     "relativePath": "Script\\Core"
   },
@@ -285,7 +285,7 @@
     "relativePath": "Scene\\Login.fire"
   },
   "c77cb07f-2b17-4fa5-b856-39c9c24b8477": {
-    "asset": 1515778833519,
+    "asset": 1515781700640,
     "meta": 1515722414000,
     "relativePath": "Script\\Core\\Global"
   },
@@ -305,7 +305,7 @@
     "relativePath": "Script\\Core\\Manager\\Audio"
   },
   "aa42fea2-2b98-4da5-a36f-14faa2513d7c": {
-    "asset": 1515778833559,
+    "asset": 1515790052702,
     "meta": 1515722416000,
     "relativePath": "Script\\Core\\Manager\\Event"
   },
@@ -324,11 +324,6 @@
     "meta": 1515722416000,
     "relativePath": "Script\\Core\\Manager\\Net"
   },
-  "94cd80be-d9ff-4e19-8528-e1018c8c5085": {
-    "asset": 1515752838000,
-    "meta": 1515779106537,
-    "relativePath": "Script\\Core\\Manager\\Event\\EventNode.js"
-  },
   "32e2942e-7d57-403e-ab0b-76ddce9acc74": {
     "asset": 1515778833580,
     "meta": 1515722416000,
@@ -340,7 +335,7 @@
     "relativePath": "Script\\Core\\Manager\\Net\\NewScript.js"
   },
   "56d6bb2d-d8ae-4052-bf26-10f8c6e87c82": {
-    "asset": 1515778833592,
+    "asset": 1515782179129,
     "meta": 1515722416000,
     "relativePath": "Script\\Core\\Utils"
   },
@@ -374,14 +369,19 @@
     "meta": 1515786868840,
     "relativePath": "Script\\Core\\InitFrame.js"
   },
-  "5ccd07f6-85cd-4245-ad91-773b2d69d79c": {
-    "asset": 1515786843678,
-    "meta": 1515786868841,
-    "relativePath": "Script\\Core\\Manager\\Event\\EventManager.js"
-  },
   "548bfc20-a446-4da8-bbe1-3d9dc282ba78": {
     "asset": 1515787032061,
     "meta": 1515787033441,
     "relativePath": "Script\\Test.js"
+  },
+  "5ccd07f6-85cd-4245-ad91-773b2d69d79c": {
+    "asset": 1515790052699,
+    "meta": 1515790402565,
+    "relativePath": "Script\\Core\\Manager\\Event\\EventManager.js"
+  },
+  "94cd80be-d9ff-4e19-8528-e1018c8c5085": {
+    "asset": 1515787832376,
+    "meta": 1515790402565,
+    "relativePath": "Script\\Core\\Manager\\Event\\EventNode.js"
   }
 }

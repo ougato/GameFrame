@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa10aeb2-2116-4370-a531-01d27e13067f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Utils/NewScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Utils/NewScript.js.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Atlas/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Atlas/NewScript.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Audio/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Audio/NewScript.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Font/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Font/NewScript.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Prefab/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Prefab/NewScript.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Global/Global.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Global/Global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Global/Global.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Global/Global.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/InitFrame.js" afterPath="$PROJECT_DIR$/assets/Script/Core/InitFrame.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/InitFrame.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/InitFrame.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Audio/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Audio/NewScript.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Net/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Net/NewScript.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Texture/NewScript.js.meta" afterPath="$PROJECT_DIR$/assets/Texture/NewScript.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js" afterPath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js.map" afterPath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js" afterPath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js.map" afterPath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/assets.json" afterPath="$PROJECT_DIR$/local/assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventNode.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventNode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventNode.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventNode.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,12 +33,12 @@
     <favorites_list name="GameFrame" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="EventManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2470">
-              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state relative-caret-position="370">
+              <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -55,8 +47,8 @@
       <file leaf-file-name="EventNode.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="522">
+              <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -76,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -85,8 +77,8 @@
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="589">
+              <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -119,10 +111,14 @@
       <find>m_objNextScript</find>
       <find>m_objPrevScript</find>
       <find>EventNode</find>
+      <find>m_dictEventList</find>
+      <find>m_objEventList</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>m_objNextEventNode</replace>
+      <replace>m_objEventList</replace>
+      <replace>m_dictMsgList</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,13 +353,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -419,6 +415,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -453,11 +455,12 @@
       <option name="presentableId" value="Default" />
       <updated>1515779237828</updated>
       <workItem from="1515779240725" duration="10077000" />
+      <workItem from="1515834278945" duration="10283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10077000" />
+    <option name="totallyTimeSpent" value="20360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,19 +477,19 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -501,6 +504,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Global/Global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -517,10 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
+    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="76">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -533,26 +592,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="589">
+          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="522">
+          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="370">
+          <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
           <folding />
         </state>
       </provider>
