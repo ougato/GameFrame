@@ -3,7 +3,7 @@
  * @type {Function}
  */
 
-let EventNode = cc.Class({
+let ScriptNode = cc.Class({
 
     /**
      * 构造
@@ -16,9 +16,9 @@ let EventNode = cc.Class({
         // 脚本对象
         this.m_objScript = scriptObject;
         // 上一个事件节点
-        this.m_objPrevEventNode = null;
+        this.m_objPrevScript = null;
         // 下一个事件节点
-        this.m_objNextEventNode = null;
+        this.m_objNextScript = null;
     },
 
     /**
@@ -26,8 +26,8 @@ let EventNode = cc.Class({
      */
     destroy() {
         this.m_objScript = null;
-        this.m_objPrevEventNode = null;
-        this.m_objNextEventNode = null;
+        this.m_objPrevScript = null;
+        this.m_objNextScript = null;
     },
 
     /**
@@ -43,7 +43,7 @@ let EventNode = cc.Class({
      * @returns {null}
      */
     getNext() {
-        return this.m_objNextEventNode;
+        return this.m_objNextScript;
     },
 
     /**
@@ -51,9 +51,9 @@ let EventNode = cc.Class({
      * @returns {null}
      */
     getPrev() {
-        return this.m_objPrevEventNode;
+        return this.m_objPrevScript;
     },
 
 });
 
-module.exports = EventNode;
+module.exports = ScriptNode;

@@ -314,11 +314,6 @@
     "meta": 1515779106511,
     "relativePath": "Script\\Core\\Manager\\Audio\\NewScript.js"
   },
-  "cc23ebbf-393f-492a-a8d3-d77e66812a57": {
-    "asset": 1515746656000,
-    "meta": 1515779106523,
-    "relativePath": "Script\\Core\\Manager\\Event\\EventBase.js"
-  },
   "8f42c321-5fba-4fdc-8b36-9f1fb5e25d14": {
     "asset": 1515778833571,
     "meta": 1515722416000,
@@ -338,11 +333,6 @@
     "asset": 1515782179129,
     "meta": 1515722416000,
     "relativePath": "Script\\Core\\Utils"
-  },
-  "27879b0b-b83d-44ff-a562-b355bb6eebd0": {
-    "asset": 1515722150000,
-    "meta": 1515779106555,
-    "relativePath": "Script\\Core\\Manager\\View\\ViewBase.js"
   },
   "8aa5d013-a694-4b7a-8ad2-d281bc688b23": {
     "asset": 1515778833605,
@@ -369,19 +359,39 @@
     "meta": 1515786868840,
     "relativePath": "Script\\Core\\InitFrame.js"
   },
-  "548bfc20-a446-4da8-bbe1-3d9dc282ba78": {
-    "asset": 1515787032061,
-    "meta": 1515787033441,
-    "relativePath": "Script\\Test.js"
+  "27879b0b-b83d-44ff-a562-b355bb6eebd0": {
+    "asset": 1515855134999,
+    "meta": 1515855663367,
+    "relativePath": "Script\\Core\\Manager\\View\\ViewBase.js"
   },
   "5ccd07f6-85cd-4245-ad91-773b2d69d79c": {
-    "asset": 1515790052699,
-    "meta": 1515790402565,
+    "asset": 1515856386729,
+    "meta": 1515856387867,
     "relativePath": "Script\\Core\\Manager\\Event\\EventManager.js"
   },
+  "cc23ebbf-393f-492a-a8d3-d77e66812a57": {
+    "asset": 1515856620989,
+    "meta": 1515857120995,
+    "relativePath": "Script\\Core\\Manager\\Event\\EventBase.js"
+  },
   "94cd80be-d9ff-4e19-8528-e1018c8c5085": {
-    "asset": 1515787832376,
-    "meta": 1515790402565,
-    "relativePath": "Script\\Core\\Manager\\Event\\EventNode.js"
+    "asset": 1515857165949,
+    "meta": 1515857455233,
+    "relativePath": "Script\\Core\\Manager\\Event\\ScriptNode.js"
+  },
+  "b5bbd236-c7eb-407f-bf23-4519a0ee8628": {
+    "asset": 1515858340217,
+    "meta": 1515859519989,
+    "relativePath": "Script\\Core\\Manager\\Event\\ScriptEventManager.js"
+  },
+  "548bfc20-a446-4da8-bbe1-3d9dc282ba78": {
+    "asset": 1515858026056,
+    "meta": 1515859519990,
+    "relativePath": "Script\\Test.js"
+  },
+  "09d94a40-2f1b-42c0-96c1-a20456b6cbb7": {
+    "asset": 1515860019906,
+    "meta": 1515861213124,
+    "relativePath": "Script\\Core\\Manager\\Event\\ScriptEvent.js"
   }
 }

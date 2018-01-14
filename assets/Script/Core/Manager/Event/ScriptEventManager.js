@@ -1,5 +1,5 @@
 /**
- * 事件管理器
+ * 脚本事件 管理器
  * @type {Function}
  */
 
@@ -8,7 +8,7 @@ let ScriptNode = require( "ScriptNode" );
 // 实例化对象
 let instance = null;
 
-let EventManager = cc.Class({
+let ScriptEventManager = cc.Class({
 
     /**
      * 静态类
@@ -21,7 +21,7 @@ let EventManager = cc.Class({
          */
         getInstance() {
             if( instance === null ) {
-                instance = new EventManager();
+                instance = new ScriptEventManager();
             }
             return instance;
         },
@@ -37,44 +37,44 @@ let EventManager = cc.Class({
     },
 
     /**
-     * 获取最后一个事件节点
+     * 获取最后一个脚本节点
      * @param msgId
      * @returns {*}
      */
-    getLastEventNode( msgId ) {
-        let eventNode = null;
+    getLastScriptNode( msgId ) {
+        let scriptNode = null;
         if( this.m_dictMsgList.hasOwnProperty( msgId ) ) {
-            let eventList = this.m_dictMsgList[msgId];
-            if( Utils.isArray( eventList ) && eventList.length > 0 ) {
-                eventNode = eventList[eventList.length-1];
+            let scriptList = this.m_dictMsgList[msgId];
+            if( Utils.isArray( scriptList ) && scriptList.length > 0 ) {
+                scriptNode = scriptList[scriptList.length-1];
             }
         }
-        return eventNode;
+        return scriptNode;
     },
 
     /**
-     * 获取第一个事件节点
+     * 获取第一个脚本节点
      * @param msgId
      * @returns {*}
      */
-    getFirstEventNode( msgId ) {
-        let eventNode = null;
+    getFirstScriptNode( msgId ) {
+        let scriptNode = null;
         if( this.m_dictMsgList.hasOwnProperty( msgId ) ) {
-            let eventList = this.m_dictMsgList[msgId];
-            if( Utils.isArray( eventList ) && eventList.length > 0 ) {
-                eventNode = eventList[0];
+            let scriptList = this.m_dictMsgList[msgId];
+            if( Utils.isArray( scriptList ) && scriptList.length > 0 ) {
+                scriptNode = scriptList[0];
             }
         }
-        return eventNode;
+        return scriptNode;
     },
 
     /**
-     * 获取事件节点 在 数组里的下标
+     * 获取脚本节点 在 数组里的下标
      * @param msgId
      * @param script
      * @returns {number}
      */
-    getEventNodeIndex( msgId, script ) {
+    getScriptNodeIndex( msgId, script ) {
         let index = -1;
         if( this.m_dictMsgList.hasOwnProperty( msgId ) && Utils.isArray( this.m_dictMsgList[msgId] ) ) {
             for( let i = 0; i < this.m_dictMsgList[msgId].length; ++i ) {
@@ -91,22 +91,22 @@ let EventManager = cc.Class({
     /**
      * 内部函数 注册事件_1
      * @param msgId
-     * @param eventNode
+     * @param scriptNode
      * @private
      */
-    _register1( msgId, eventNode ) {
+    _register1( msgId, scriptNode ) {
         if( this.m_dictMsgList.hasOwnProperty( msgId ) && Utils.isArray( this.m_dictMsgList[msgId] ) ) {
-            let lastNode = getLastEventNode( msgId );
+            let lastNode = getLastScriptNode( msgId );
             if( !Utils.isNull( lastNode ) ) {
-                eventNode.m_objPrevEventNode = lastNode;
-                eventNode.m_objNextEventNode = null;
-                lastNode.m_objNextEventNode = eventNode;
+                scriptNode.m_objPrevScript = lastNode;
+                scriptNode.m_objNextScript = null;
+                lastNode.m_objNextScript = scriptNode;
             }
         } else {
             // msgId 在字典中不存在
             this.m_dictMsgList[msgId] = [];
         }
-        this.m_dictMsgList[msgId].push( eventNode );
+        this.m_dictMsgList[msgId].push( scriptNode );
     },
 
     /**
@@ -117,8 +117,8 @@ let EventManager = cc.Class({
      */
     _register2( script, msgIdList ) {
         for( let i = 0; i < msgIdList.length; ++i ) {
-            let eventNode = new EventNode( script );
-            this._register1( msgIdList[i], eventNode );
+            let scriptNode = new ScriptNode( script );
+            this._register1( msgIdList[i], scriptNode );
         }
     },
 
@@ -154,16 +154,16 @@ let EventManager = cc.Class({
      */
     _unRegister1( msgId, script ) {
         if( this.m_dictMsgList.hasOwnProperty( msgId ) && Utils.isArray( this.m_dictMsgList[msgId] ) ) {
-            let firstNode = this.getFirstEventNode( msgId );
+            let firstNode = this.getFirstScriptNode( msgId );
             let nextNode = firstNode;
             while( !Utils.isNull( nextNode ) ) {
                 if( nextNode.getScript() === script ) {
-                    let index = this.getEventNodeIndex( script );
+                    let index = this.getScriptNodeIndex( script );
                     if( index >= 0 ) {
-                        let prevNode = script.m_objPrevEventNode;
-                        prevNode.m_objNextEventNode = script.m_objNextEventNode;
-                        let nextNode = script.m_objNextEventNode;
-                        nextNode.m_objPrevEventNode = script.m_objPrevEventNode;
+                        let prevNode = script.m_objPrevScript;
+                        prevNode.m_objNextScript = script.m_objNextScript;
+                        let nextNode = script.m_objNextScript;
+                        nextNode.m_objPrevScript = script.m_objPrevScript;
                         let spliceNode = this.m_dictMsgList[msgId].splice( index, 1 );
                         spliceNode.destroy();
                     }
@@ -225,4 +225,4 @@ let EventManager = cc.Class({
 
 });
 
-module.exports = EventManager;
+module.exports = ScriptEventManager;

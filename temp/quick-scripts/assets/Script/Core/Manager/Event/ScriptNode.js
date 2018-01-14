@@ -1,5 +1,5 @@
-"use strict";
-cc._RF.push(module, '94cd8C+2f9OGYUo4QGMjFCF', 'ScriptNode');
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Core/Manager/Event/ScriptNode.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '94cd8C+2f9OGYUo4QGMjFCF', 'ScriptNode', __filename);
 // Script/Core/Manager/Event/ScriptNode.js
 
 "use strict";
@@ -68,3 +68,15 @@ var ScriptNode = cc.Class({
 module.exports = ScriptNode;
 
 cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=ScriptNode.js.map
+        

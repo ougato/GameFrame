@@ -53,3 +53,85 @@
 2018-01-13T09:04:01.507Z - normal: 1.8.0
 2018-01-13T09:04:02.140Z - normal: true
 2018-01-13T09:04:02.140Z - normal: false
+2018-01-13T13:48:30.748Z - normal: true
+2018-01-13T13:48:30.750Z - normal: false
+2018-01-13T13:48:30.750Z - normal: ,2,3
+2018-01-13T13:48:58.656Z - normal: true
+2018-01-13T13:48:58.656Z - normal: false
+2018-01-13T13:48:58.656Z - normal: ,,3
+2018-01-13T15:01:03.613Z - normal: true
+2018-01-13T15:01:03.614Z - normal: false
+2018-01-13T15:01:03.614Z - normal: ,,3
+2018-01-13T15:01:25.164Z - failed: load script [EventNode] failed : Error: Cannot find module 'EventNode'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\Cocos\Creator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (D:\Cocos\Creator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (D:\Cocos\Creator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:1:373
+    at __define (E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:12:17)
+    at E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:245:13
+2018-01-13T15:01:25.166Z - normal: true
+2018-01-13T15:01:25.166Z - normal: false
+2018-01-13T15:01:25.166Z - normal: ,,3
+2018-01-13T15:01:28.730Z - failed: load script [EventNode] failed : Error: Cannot find module 'EventNode'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\Cocos\Creator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (D:\Cocos\Creator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (D:\Cocos\Creator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:1:373
+    at __define (E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:12:17)
+    at E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:245:13
+2018-01-13T15:01:28.731Z - normal: true
+2018-01-13T15:01:28.731Z - normal: false
+2018-01-13T15:01:28.731Z - normal: ,,3
+2018-01-13T15:13:08.119Z - failed: load script [ScriptNode] failed : Error: Cannot find module 'ScriptNode'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (D:\Cocos\Creator\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (D:\Cocos\Creator\resources\app.asar\editor\page\project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (D:\Cocos\Creator\resources\app.asar\editor\page\project-scripts.js:1:967)
+    at E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:1:373
+    at __define (E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:12:18)
+    at E:\Project\GameFrame\temp\quick-scripts\assets\Script\Core\Manager\Event\EventManager.js:245:13
+2018-01-13T15:13:08.121Z - normal: true
+2018-01-13T15:13:08.121Z - normal: false
+2018-01-13T15:13:08.121Z - normal: ,,3
+2018-01-13T15:13:12.055Z - normal: true
+2018-01-13T15:13:12.055Z - normal: false
+2018-01-13T15:13:12.055Z - normal: ,,3
+2018-01-13T15:13:16.276Z - normal: true
+2018-01-13T15:13:16.277Z - normal: false
+2018-01-13T15:13:16.277Z - normal: ,,3
+2018-01-13T15:25:21.166Z - normal: true
+2018-01-13T15:25:21.167Z - normal: false
+2018-01-13T15:25:21.167Z - normal: ,,3
+2018-01-13T15:30:55.387Z - normal: true
+2018-01-13T15:30:55.389Z - normal: false
+2018-01-13T15:30:55.389Z - normal: ,,3
+2018-01-13T15:31:58.187Z - normal: true
+2018-01-13T15:31:58.187Z - normal: false
+2018-01-13T15:31:58.188Z - normal: ,,3
+2018-01-13T15:32:02.470Z - normal: true
+2018-01-13T15:32:02.471Z - normal: false
+2018-01-13T15:32:02.471Z - normal: ,,3
+2018-01-13T16:05:20.176Z - normal: true
+2018-01-13T16:05:20.177Z - normal: false
+2018-01-13T16:05:20.177Z - normal: ,,3
+2018-01-13T16:08:15.433Z - normal: true
+2018-01-13T16:08:15.434Z - normal: false
+2018-01-13T16:08:15.434Z - normal: ,,3
+2018-01-13T16:08:20.340Z - normal: true
+2018-01-13T16:08:20.340Z - normal: false
+2018-01-13T16:08:20.340Z - normal: ,,3
+2018-01-13T16:33:33.353Z - normal: true
+2018-01-13T16:33:33.357Z - normal: false
+2018-01-13T16:33:33.357Z - normal: ,,3
+2018-01-13T16:33:34.837Z - info: shutdown preview server

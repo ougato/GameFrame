@@ -15,6 +15,14 @@ cc.Class({
   properties: {},
 
   /**
+   * 接收 消息 监听函数
+   * @param msgId
+   * @param data
+   */
+  onMessageEvent: function onMessageEvent(msgId, data) {},
+
+
+  /**
    * 组件脚本的初始化阶段，我们提供了 onLoad 回调函数。onLoad 回调会在组件首次激活时触发，比如所在的场景被载入，或者所
    * 在节点被激活的情况下。在 onLoad 阶段，保证了你可以获取到场景中的其他节点，以及节点关联的资源数据。onLoad 总是会在
    * 任何 start 方法调用前执行，这能用于安排脚本的初始化顺序。通常我们会在 onLoad 阶段去做一些初始化相关的操作。

@@ -1,11 +1,11 @@
-"use strict";
-cc._RF.push(module, '5ccd0f2hc1CRa2Rdzstadec', 'EventManager');
-// Script/Core/Manager/Event/EventManager.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Core/Manager/Event/ScriptEventManager.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'b5bbdI2x+tAf78jRRmg7oYo', 'ScriptEventManager', __filename);
+// Script/Core/Manager/Event/ScriptEventManager.js
 
 "use strict";
 
 /**
- * 事件管理器
+ * 脚本事件 管理器
  * @type {Function}
  */
 
@@ -14,7 +14,7 @@ var ScriptNode = require("ScriptNode");
 // 实例化对象
 var instance = null;
 
-var EventManager = cc.Class({
+var ScriptEventManager = cc.Class({
 
     /**
      * 静态类
@@ -27,7 +27,7 @@ var EventManager = cc.Class({
          */
         getInstance: function getInstance() {
             if (instance === null) {
-                instance = new EventManager();
+                instance = new ScriptEventManager();
             }
             return instance;
         }
@@ -43,46 +43,46 @@ var EventManager = cc.Class({
 
 
     /**
-     * 获取最后一个事件节点
+     * 获取最后一个脚本节点
      * @param msgId
      * @returns {*}
      */
-    getLastEventNode: function getLastEventNode(msgId) {
-        var eventNode = null;
+    getLastScriptNode: function getLastScriptNode(msgId) {
+        var scriptNode = null;
         if (this.m_dictMsgList.hasOwnProperty(msgId)) {
-            var eventList = this.m_dictMsgList[msgId];
-            if (Utils.isArray(eventList) && eventList.length > 0) {
-                eventNode = eventList[eventList.length - 1];
+            var scriptList = this.m_dictMsgList[msgId];
+            if (Utils.isArray(scriptList) && scriptList.length > 0) {
+                scriptNode = scriptList[scriptList.length - 1];
             }
         }
-        return eventNode;
+        return scriptNode;
     },
 
 
     /**
-     * 获取第一个事件节点
+     * 获取第一个脚本节点
      * @param msgId
      * @returns {*}
      */
-    getFirstEventNode: function getFirstEventNode(msgId) {
-        var eventNode = null;
+    getFirstScriptNode: function getFirstScriptNode(msgId) {
+        var scriptNode = null;
         if (this.m_dictMsgList.hasOwnProperty(msgId)) {
-            var eventList = this.m_dictMsgList[msgId];
-            if (Utils.isArray(eventList) && eventList.length > 0) {
-                eventNode = eventList[0];
+            var scriptList = this.m_dictMsgList[msgId];
+            if (Utils.isArray(scriptList) && scriptList.length > 0) {
+                scriptNode = scriptList[0];
             }
         }
-        return eventNode;
+        return scriptNode;
     },
 
 
     /**
-     * 获取事件节点 在 数组里的下标
+     * 获取脚本节点 在 数组里的下标
      * @param msgId
      * @param script
      * @returns {number}
      */
-    getEventNodeIndex: function getEventNodeIndex(msgId, script) {
+    getScriptNodeIndex: function getScriptNodeIndex(msgId, script) {
         var index = -1;
         if (this.m_dictMsgList.hasOwnProperty(msgId) && Utils.isArray(this.m_dictMsgList[msgId])) {
             for (var i = 0; i < this.m_dictMsgList[msgId].length; ++i) {
@@ -100,22 +100,22 @@ var EventManager = cc.Class({
     /**
      * 内部函数 注册事件_1
      * @param msgId
-     * @param eventNode
+     * @param scriptNode
      * @private
      */
-    _register1: function _register1(msgId, eventNode) {
+    _register1: function _register1(msgId, scriptNode) {
         if (this.m_dictMsgList.hasOwnProperty(msgId) && Utils.isArray(this.m_dictMsgList[msgId])) {
-            var lastNode = getLastEventNode(msgId);
+            var lastNode = getLastScriptNode(msgId);
             if (!Utils.isNull(lastNode)) {
-                eventNode.m_objPrevEventNode = lastNode;
-                eventNode.m_objNextEventNode = null;
-                lastNode.m_objNextEventNode = eventNode;
+                scriptNode.m_objPrevScript = lastNode;
+                scriptNode.m_objNextScript = null;
+                lastNode.m_objNextScript = scriptNode;
             }
         } else {
             // msgId 在字典中不存在
             this.m_dictMsgList[msgId] = [];
         }
-        this.m_dictMsgList[msgId].push(eventNode);
+        this.m_dictMsgList[msgId].push(scriptNode);
     },
 
 
@@ -127,8 +127,8 @@ var EventManager = cc.Class({
      */
     _register2: function _register2(script, msgIdList) {
         for (var i = 0; i < msgIdList.length; ++i) {
-            var eventNode = new EventNode(script);
-            this._register1(msgIdList[i], eventNode);
+            var scriptNode = new ScriptNode(script);
+            this._register1(msgIdList[i], scriptNode);
         }
     },
 
@@ -166,16 +166,16 @@ var EventManager = cc.Class({
      */
     _unRegister1: function _unRegister1(msgId, script) {
         if (this.m_dictMsgList.hasOwnProperty(msgId) && Utils.isArray(this.m_dictMsgList[msgId])) {
-            var firstNode = this.getFirstEventNode(msgId);
+            var firstNode = this.getFirstScriptNode(msgId);
             var nextNode = firstNode;
             while (!Utils.isNull(nextNode)) {
                 if (nextNode.getScript() === script) {
-                    var index = this.getEventNodeIndex(script);
+                    var index = this.getScriptNodeIndex(script);
                     if (index >= 0) {
-                        var prevNode = script.m_objPrevEventNode;
-                        prevNode.m_objNextEventNode = script.m_objNextEventNode;
-                        var _nextNode = script.m_objNextEventNode;
-                        _nextNode.m_objPrevEventNode = script.m_objPrevEventNode;
+                        var prevNode = script.m_objPrevScript;
+                        prevNode.m_objNextScript = script.m_objNextScript;
+                        var _nextNode = script.m_objNextScript;
+                        _nextNode.m_objPrevScript = script.m_objPrevScript;
                         var spliceNode = this.m_dictMsgList[msgId].splice(index, 1);
                         spliceNode.destroy();
                     }
@@ -237,6 +237,18 @@ var EventManager = cc.Class({
     }
 });
 
-module.exports = EventManager;
+module.exports = ScriptEventManager;
 
 cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=ScriptEventManager.js.map
+        

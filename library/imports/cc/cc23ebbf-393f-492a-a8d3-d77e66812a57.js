@@ -5,21 +5,37 @@ cc._RF.push(module, 'cc23eu/OT9JKqjT135mgSpX', 'EventBase');
 "use strict";
 
 /**
- * 事件父类
+ * 事件节点 父类
  * @type {Function}
  */
 
 var EventBase = cc.Class({
     ctor: function ctor() {
         // 构造参数
-        // [ 0.消息ID ]
-        var msgId = arguments[0];
+        // [ 0.消息ID 1.消息数据 ]
+        var id = arguments[0];
+        var data = arguments[1];
 
         // 消息ID
-        this.m_nMsgId = msgId;
+        this.m_nMsgId = id;
+        // 消息数据
+        this.m_objData = data;
     },
-    getManagerId: function getManagerId() {
-        return Math.floor(this.m_nMsgId / DefMsg.MSG_ID_SPAN) * DefMsg.MSG_ID_SPAN;
+
+
+    /**
+     * 获取消息ID
+     */
+    getId: function getId() {
+        return this.m_nMsgId;
+    },
+
+
+    /**
+     * 获取消息数据
+     */
+    getData: function getData() {
+        return this.m_objData;
     }
 });
 

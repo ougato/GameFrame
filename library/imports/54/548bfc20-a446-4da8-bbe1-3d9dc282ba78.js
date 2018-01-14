@@ -10,4 +10,9 @@ cc.log(dict.hasOwnProperty(10));
 delete dict[10];
 cc.log(dict.hasOwnProperty(10));
 
+var arr = [1, 2, 3];
+delete arr[0];
+delete arr[1];
+cc.log(arr);
+
 cc._RF.pop();

@@ -9,7 +9,7 @@ cc._RF.push(module, '5ccd0f2hc1CRa2Rdzstadec', 'EventManager', __filename);
  * @type {Function}
  */
 
-var EventNode = require("EventNode");
+var ScriptNode = require("ScriptNode");
 
 // 实例化对象
 var instance = null;
@@ -38,7 +38,7 @@ var EventManager = cc.Class({
      */
     ctor: function ctor() {
         // 事件列表
-        this.m_dictEventList = {};
+        this.m_dictMsgList = {};
     },
 
 
@@ -48,9 +48,12 @@ var EventManager = cc.Class({
      * @returns {*}
      */
     getLastEventNode: function getLastEventNode(msgId) {
-        var eventNode = this.m_dictEventList[msgId];
-        while (!Utils.isNull(eventNode.getNext())) {
-            eventNode = event.getNext();
+        var eventNode = null;
+        if (this.m_dictMsgList.hasOwnProperty(msgId)) {
+            var eventList = this.m_dictMsgList[msgId];
+            if (Utils.isArray(eventList) && eventList.length > 0) {
+                eventNode = eventList[eventList.length - 1];
+            }
         }
         return eventNode;
     },
@@ -62,11 +65,35 @@ var EventManager = cc.Class({
      * @returns {*}
      */
     getFirstEventNode: function getFirstEventNode(msgId) {
-        var eventNode = this.m_dictEventList[msgId];
-        while (!Utils.isNull(eventNode.getPrev())) {
-            eventNode = event.getPrev();
+        var eventNode = null;
+        if (this.m_dictMsgList.hasOwnProperty(msgId)) {
+            var eventList = this.m_dictMsgList[msgId];
+            if (Utils.isArray(eventList) && eventList.length > 0) {
+                eventNode = eventList[0];
+            }
         }
         return eventNode;
+    },
+
+
+    /**
+     * 获取事件节点 在 数组里的下标
+     * @param msgId
+     * @param script
+     * @returns {number}
+     */
+    getEventNodeIndex: function getEventNodeIndex(msgId, script) {
+        var index = -1;
+        if (this.m_dictMsgList.hasOwnProperty(msgId) && Utils.isArray(this.m_dictMsgList[msgId])) {
+            for (var i = 0; i < this.m_dictMsgList[msgId].length; ++i) {
+                var findNode = this.m_dictMsgList[msgId][i];
+                if (!Utils.isNull(findNode) && findNode.getScript() === script) {
+                    index = i;
+                    break;
+                }
+            }
+        }
+        return index;
     },
 
 
@@ -77,18 +104,18 @@ var EventManager = cc.Class({
      * @private
      */
     _register1: function _register1(msgId, eventNode) {
-        if (this.m_dictEventList.hasOwnProperty(msgId)) {
+        if (this.m_dictMsgList.hasOwnProperty(msgId) && Utils.isArray(this.m_dictMsgList[msgId])) {
             var lastNode = getLastEventNode(msgId);
-            if (Utils.isNull(lastNode)) {
-                this.m_dictEventList[msgId] = eventNode;
-            } else {
+            if (!Utils.isNull(lastNode)) {
                 eventNode.m_objPrevEventNode = lastNode;
+                eventNode.m_objNextEventNode = null;
                 lastNode.m_objNextEventNode = eventNode;
             }
         } else {
             // msgId 在字典中不存在
-            this.m_dictEventList[msgId] = eventNode;
+            this.m_dictMsgList[msgId] = [];
         }
+        this.m_dictMsgList[msgId].push(eventNode);
     },
 
 
@@ -134,11 +161,29 @@ var EventManager = cc.Class({
     /**
      * 内部函数 删除注册事件_1
      * @param msgId
-     * @param eventNode
+     * @param script
      * @private
      */
-    _unRegister1: function _unRegister1(msgId, eventNode) {
-        if (this.m_dictEventList.hasOwnProperty(msgId)) {}
+    _unRegister1: function _unRegister1(msgId, script) {
+        if (this.m_dictMsgList.hasOwnProperty(msgId) && Utils.isArray(this.m_dictMsgList[msgId])) {
+            var firstNode = this.getFirstEventNode(msgId);
+            var nextNode = firstNode;
+            while (!Utils.isNull(nextNode)) {
+                if (nextNode.getScript() === script) {
+                    var index = this.getEventNodeIndex(script);
+                    if (index >= 0) {
+                        var prevNode = script.m_objPrevEventNode;
+                        prevNode.m_objNextEventNode = script.m_objNextEventNode;
+                        var _nextNode = script.m_objNextEventNode;
+                        _nextNode.m_objPrevEventNode = script.m_objPrevEventNode;
+                        var spliceNode = this.m_dictMsgList[msgId].splice(index, 1);
+                        spliceNode.destroy();
+                    }
+                    break;
+                }
+                nextNode = nextNode.getNext();
+            }
+        }
     },
 
 
@@ -150,8 +195,7 @@ var EventManager = cc.Class({
      */
     _unRegister2: function _unRegister2(script, msgIdList) {
         for (var i = 0; i < msgIdList.length; ++i) {
-            var eventNode = new EventNode(script);
-            this._register1(msgIdList[i], eventNode);
+            this._unRegister1(msgIdList[i], script);
         }
     },
 
@@ -177,6 +221,18 @@ var EventManager = cc.Class({
             this._unRegister1(param1, param2);
         } else if (Utils.isObject(param1) && Utils.isArray(param2)) {
             this._unRegister2(param2, param2);
+        }
+    },
+
+
+    /**
+     * 接收 消息 监听函数
+     * @param msgId
+     * @param data
+     */
+    onMessageEvent: function onMessageEvent(msgId, data) {
+        if (this.m_dictMsgList.hasOwnProperty(msgId)) {} else {
+            cc.warn("未找到消息 [" + msgId + "]");
         }
     }
 });

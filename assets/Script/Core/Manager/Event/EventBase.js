@@ -1,5 +1,5 @@
 /**
- * 事件父类
+ * 事件节点 父类
  * @type {Function}
  */
 
@@ -7,15 +7,28 @@ let EventBase = cc.Class({
 
     ctor() {
         // 构造参数
-        // [ 0.消息ID ]
-        let msgId = arguments[0];
+        // [ 0.消息ID 1.消息数据 ]
+        let id = arguments[0];
+        let data = arguments[1];
 
         // 消息ID
-        this.m_nMsgId = msgId;
+        this.m_nMsgId = id;
+        // 消息数据
+        this.m_objData = data;
     },
 
-    getManagerId() {
-        return Math.floor( this.m_nMsgId / DefMsg.MSG_ID_SPAN ) * DefMsg.MSG_ID_SPAN;
+    /**
+     * 获取消息ID
+     */
+    getId() {
+        return this.m_nMsgId;
+    },
+
+    /**
+     * 获取消息数据
+     */
+    getData() {
+        return this.m_objData;
     },
 
 });
