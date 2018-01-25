@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '94cd8C+2f9OGYUo4QGMjFCF', 'ScriptNode');
-// Script/Core/Manager/Event/ScriptNode.js
+// Script_/Core/Manager/Event/ScriptNode.js
 
 "use strict";
 

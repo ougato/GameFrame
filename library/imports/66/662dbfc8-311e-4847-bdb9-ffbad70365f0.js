@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '662db/IMR5IR725/7rXA2Xw', 'NewScript');
-// Script/Core/Manager/Net/NewScript.js
+// Script_/Core/Manager/Net/NewScript.js
 
 "use strict";
 

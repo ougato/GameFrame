@@ -1,6 +1,6 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Core/Define/DefMsg.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, '884b6YEb75OFL4+TIRMYQuE', 'DefMsg', __filename);
-// Script/Core/Define/DefMsg.js
+// Script_/Core/Define/DefMsg.js
 
 "use strict";
 

@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '0ee57zXaDxIJ6QzjZT6fgiZ', 'Utils');
-// Script/Core/Utils/Utils.js
+// Script_/Core/Utils/Utils.js
 
 "use strict";
 

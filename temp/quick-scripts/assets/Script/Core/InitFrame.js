@@ -1,6 +1,6 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Core/InitFrame.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, '0ae032ED8tJx4iwzz5B0RTq', 'InitFrame', __filename);
-// Script/Core/InitFrame.js
+// Script_/Core/InitFrame.js
 
 "use strict";
 

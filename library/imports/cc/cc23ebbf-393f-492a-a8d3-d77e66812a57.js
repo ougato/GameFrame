@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'cc23eu/OT9JKqjT135mgSpX', 'EventBase');
-// Script/Core/Manager/Event/EventBase.js
+// Script_/Core/Manager/Event/EventBase.js
 
 "use strict";
 

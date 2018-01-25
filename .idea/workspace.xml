@@ -1,40 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js" line="119" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js" line="163" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="fa10aeb2-2116-4370-a531-01d27e13067f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Audio.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Audio/NewScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Audio/NewScript.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptNode.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Net.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Net/NewScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Net/NewScript.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Audio/NewScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Audio/NewScript.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventBase.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/ScriptEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/ScriptEvent.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/ScriptEventManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/ScriptEventManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/ScriptNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/ScriptNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Net/NewScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Net/NewScript.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/View/ViewBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/View/ViewBase.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Test.js" afterPath="$PROJECT_DIR$/assets/Script/Test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Manager/View.meta" afterPath="$PROJECT_DIR$/assets/Script/Core/Manager/View.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js" afterPath="$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/09/09d94a40-2f1b-42c0-96c1-a20456b6cbb7.js" afterPath="$PROJECT_DIR$/library/imports/09/09d94a40-2f1b-42c0-96c1-a20456b6cbb7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/09/09d94a40-2f1b-42c0-96c1-a20456b6cbb7.js.map" afterPath="$PROJECT_DIR$/library/imports/09/09d94a40-2f1b-42c0-96c1-a20456b6cbb7.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0a/0ae03d84-0fcb-49c7-88b0-cf3e41d114ea.js" afterPath="$PROJECT_DIR$/library/imports/0a/0ae03d84-0fcb-49c7-88b0-cf3e41d114ea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0a/0ae03d84-0fcb-49c7-88b0-cf3e41d114ea.js.map" afterPath="$PROJECT_DIR$/library/imports/0a/0ae03d84-0fcb-49c7-88b0-cf3e41d114ea.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0e/0ee57cd7-683c-4827-a433-8d94fa7e0899.js" afterPath="$PROJECT_DIR$/library/imports/0e/0ee57cd7-683c-4827-a433-8d94fa7e0899.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/0e/0ee57cd7-683c-4827-a433-8d94fa7e0899.js.map" afterPath="$PROJECT_DIR$/library/imports/0e/0ee57cd7-683c-4827-a433-8d94fa7e0899.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/10/10e3595c-ecf9-4534-b262-7ba3fe3189e6.js.map" afterPath="$PROJECT_DIR$/library/imports/10/10e3595c-ecf9-4534-b262-7ba3fe3189e6.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/27/27879b0b-b83d-44ff-a562-b355bb6eebd0.js" afterPath="$PROJECT_DIR$/library/imports/27/27879b0b-b83d-44ff-a562-b355bb6eebd0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/27/27879b0b-b83d-44ff-a562-b355bb6eebd0.js.map" afterPath="$PROJECT_DIR$/library/imports/27/27879b0b-b83d-44ff-a562-b355bb6eebd0.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/54/548bfc20-a446-4da8-bbe1-3d9dc282ba78.js" afterPath="$PROJECT_DIR$/library/imports/54/548bfc20-a446-4da8-bbe1-3d9dc282ba78.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/54/548bfc20-a446-4da8-bbe1-3d9dc282ba78.js.map" afterPath="$PROJECT_DIR$/library/imports/54/548bfc20-a446-4da8-bbe1-3d9dc282ba78.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/57/57eb54b7-165e-4ac7-b3c1-a2b96f6dbf80.js" afterPath="$PROJECT_DIR$/library/imports/57/57eb54b7-165e-4ac7-b3c1-a2b96f6dbf80.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/57/57eb54b7-165e-4ac7-b3c1-a2b96f6dbf80.js.map" afterPath="$PROJECT_DIR$/library/imports/57/57eb54b7-165e-4ac7-b3c1-a2b96f6dbf80.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5b/5b6fa9fe-1ffb-48a9-b136-620a65ec38ba.js.map" afterPath="$PROJECT_DIR$/library/imports/5b/5b6fa9fe-1ffb-48a9-b136-620a65ec38ba.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js" afterPath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js.map" afterPath="$PROJECT_DIR$/library/imports/5c/5ccd07f6-85cd-4245-ad91-773b2d69d79c.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/66/662dbfc8-311e-4847-bdb9-ffbad70365f0.js" afterPath="$PROJECT_DIR$/library/imports/66/662dbfc8-311e-4847-bdb9-ffbad70365f0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/66/662dbfc8-311e-4847-bdb9-ffbad70365f0.js.map" afterPath="$PROJECT_DIR$/library/imports/66/662dbfc8-311e-4847-bdb9-ffbad70365f0.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/6d/6dcd71dc-d171-4f4c-b09e-3ed8957d070f.js.map" afterPath="$PROJECT_DIR$/library/imports/6d/6dcd71dc-d171-4f4c-b09e-3ed8957d070f.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/88/884b6604-6fbe-4e14-be3e-4c844c610b84.js" afterPath="$PROJECT_DIR$/library/imports/88/884b6604-6fbe-4e14-be3e-4c844c610b84.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/88/884b6604-6fbe-4e14-be3e-4c844c610b84.js.map" afterPath="$PROJECT_DIR$/library/imports/88/884b6604-6fbe-4e14-be3e-4c844c610b84.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/8c/8cf24749-8014-4334-8cf2-ca5f4132b635.js.map" afterPath="$PROJECT_DIR$/library/imports/8c/8cf24749-8014-4334-8cf2-ca5f4132b635.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/91/91ce4ef1-8097-4bae-a956-62505d354666.js" afterPath="$PROJECT_DIR$/library/imports/91/91ce4ef1-8097-4bae-a956-62505d354666.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/91/91ce4ef1-8097-4bae-a956-62505d354666.js.map" afterPath="$PROJECT_DIR$/library/imports/91/91ce4ef1-8097-4bae-a956-62505d354666.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js" afterPath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js.map" afterPath="$PROJECT_DIR$/library/imports/94/94cd80be-d9ff-4e19-8528-e1018c8c5085.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/a1/a15181f5-297c-4608-9d9d-58cb96d9446a.js.map" afterPath="$PROJECT_DIR$/library/imports/a1/a15181f5-297c-4608-9d9d-58cb96d9446a.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/b5/b5bbd236-c7eb-407f-bf23-4519a0ee8628.js" afterPath="$PROJECT_DIR$/library/imports/b5/b5bbd236-c7eb-407f-bf23-4519a0ee8628.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/b5/b5bbd236-c7eb-407f-bf23-4519a0ee8628.js.map" afterPath="$PROJECT_DIR$/library/imports/b5/b5bbd236-c7eb-407f-bf23-4519a0ee8628.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/cc/cc23ebbf-393f-492a-a8d3-d77e66812a57.js" afterPath="$PROJECT_DIR$/library/imports/cc/cc23ebbf-393f-492a-a8d3-d77e66812a57.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/cc/cc23ebbf-393f-492a-a8d3-d77e66812a57.js.map" afterPath="$PROJECT_DIR$/library/imports/cc/cc23ebbf-393f-492a-a8d3-d77e66812a57.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventBase.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventBase.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventBase.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Atlas/NewScript.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Atlas/NewScript.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Audio/NewScript.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Audio/NewScript.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Font/NewScript.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Font/NewScript.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Prefab/NewScript.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Prefab/NewScript.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Define/DefMsg.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Define/DefMsg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Define/DefMsg.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Define/DefMsg.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Global/Global.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Global/Global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Global/Global.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Global/Global.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/InitFrame.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/InitFrame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/InitFrame.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/InitFrame.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/Event/EventManager.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/View/ViewBase.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/View/ViewBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/View/ViewBase.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Manager/View/ViewBase.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Utils/Utils.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Utils/Utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Utils/Utils.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Core/Utils/Utils.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Test.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Test.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Script/Test.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/Texture/NewScript.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/Texture/NewScript.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,97 +101,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="GameFrame" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EventManager.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScriptNode.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptNode.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ScriptEventManager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/ScriptEventManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="26" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="227" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventBase.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js">
+      <file leaf-file-name="ViewEvent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ViewEvent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="220">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScriptEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js">
+      <file leaf-file-name="Global.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Global/Global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewBase.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefMsg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitFrame.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -145,8 +143,68 @@
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+            <state relative-caret-position="730">
+              <caret line="97" column="39" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventBase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/EventBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcmaScript.js" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.es6.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="3225" column="13" selection-start-line="3225" selection-start-column="4" selection-end-line="3225" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventNode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -206,17 +264,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/Script/Core/Global/Global.js" />
-        <option value="$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/InitFrame.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js" />
-        <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewScriptNode.js" />
-        <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptNode.js" />
         <option value="$PROJECT_DIR$/assets/Script/Test.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js" />
         <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js" />
+        <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js" />
+        <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js" />
+        <option value="$PROJECT_DIR$/assets/Script/Core/Manager/Event/ViewEvent.js" />
+        <option value="$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js" />
       </list>
     </option>
   </component>
@@ -233,13 +292,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="y" value="16" />
+    <option name="x" value="461" />
+    <option name="y" value="38" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -256,9 +322,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="GameFrame" />
@@ -371,7 +443,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Manager" />
+              <option name="myItemId" value="Manager_Deprecated" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Manager_Deprecated" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Event" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,10 +500,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,35 +533,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Define" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,6 +545,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -493,20 +566,7 @@
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -534,7 +594,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -566,11 +626,12 @@
       <updated>1515779237828</updated>
       <workItem from="1515779240725" duration="10077000" />
       <workItem from="1515834278945" duration="20109000" />
+      <workItem from="1516864365166" duration="9338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30186000" />
+    <option name="totallyTimeSpent" value="39524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,9 +643,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="16" width="1400" height="1000" extended-state="0" />
+    <frame x="461" y="38" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -605,6 +667,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -616,127 +686,15 @@
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Global/Global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Global/Global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewScriptNode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptNode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -744,15 +702,7 @@
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -760,15 +710,272 @@
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js" />
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Global/Global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/InitFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/View/ViewScriptNode.js" />
+    <entry file="file://$PROJECT_DIR$/assets/Script/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ScriptEventManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Define/DefMsg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/EventManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/ScriptEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/ScriptNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/ScriptEventManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="227" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="3225" column="13" selection-start-line="3225" selection-start-column="4" selection-end-line="3225" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager_Deprecated/Event/EventBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/EventNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Utils/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="97" column="39" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Manager/Event/ViewEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Script/Core/Global/Global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>

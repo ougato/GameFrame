@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '884b6YEb75OFL4+TIRMYQuE', 'DefMsg');
-// Script/Core/Define/DefMsg.js
+// Script_/Core/Define/DefMsg.js
 
 "use strict";
 

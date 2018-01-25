@@ -106,7 +106,7 @@ let Utils = cc.Class({
      * @param value
      * @returns {boolean}
      */
-    isBooleam( value ) {
+    isBoolean( value ) {
         let flag = false;
         if( typeof( value ) === "boolean" ) {
             flag = true;

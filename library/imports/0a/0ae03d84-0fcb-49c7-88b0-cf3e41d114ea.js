@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '0ae032ED8tJx4iwzz5B0RTq', 'InitFrame');
-// Script/Core/InitFrame.js
+// Script_/Core/InitFrame.js
 
 "use strict";
 

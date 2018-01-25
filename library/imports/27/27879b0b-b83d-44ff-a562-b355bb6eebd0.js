@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '27879sLuD1E/6Vis1W7buvQ', 'ViewBase');
-// Script/Core/Manager/View/ViewBase.js
+// Script_/Core/Manager/View/ViewBase.js
 
 "use strict";
 
