@@ -14,7 +14,7 @@ let DefMsg = cc.Class({
     statics: {
         /**
          * 获取实例
-         * @returns {DefMsg}
+         * @returns {object}
          */
         getInstance() {
             if( instance === null ) {

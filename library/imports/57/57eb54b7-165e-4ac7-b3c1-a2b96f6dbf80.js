@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '57eb5S3Fl5Kx7PBorlvbb+A', 'NewScript');
-// Script_/Core/Manager/Audio/NewScript.js
+// Script/Core/Manager_Deprecated/Audio/NewScript.js
 
 "use strict";
 

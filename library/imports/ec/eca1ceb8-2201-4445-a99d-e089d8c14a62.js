@@ -14,7 +14,7 @@ var EventNode = require("EventNode");
 // 实例化对象
 var instance = null;
 
-var ScriptEventManager = cc.Class({
+var ViewEvent = cc.Class({
 
     /**
      * 静态类
@@ -27,7 +27,7 @@ var ScriptEventManager = cc.Class({
          */
         getInstance: function getInstance() {
             if (instance === null) {
-                instance = new ScriptEventManager();
+                instance = new ViewEvent();
             }
             return instance;
         }
@@ -72,6 +72,7 @@ var ScriptEventManager = cc.Class({
                 scriptNode = scriptList[0];
             }
         }
+        msgId.toString();
         return scriptNode;
     },
 
@@ -153,7 +154,7 @@ var ScriptEventManager = cc.Class({
         if (Utils.isNumber(param1) && Utils.isObject(param2)) {
             this._register1(param1, param2);
         } else if (Utils.isObject(param1) && Utils.isArray(param2)) {
-            this._register2(param2, param2);
+            this._register2(param1, param2);
         }
     },
 
@@ -220,7 +221,7 @@ var ScriptEventManager = cc.Class({
         if (Utils.isNumber(param1) && Utils.isObject(param2)) {
             this._unRegister1(param1, param2);
         } else if (Utils.isObject(param1) && Utils.isArray(param2)) {
-            this._unRegister2(param2, param2);
+            this._unRegister2(param1, param2);
         }
     },
 
@@ -237,6 +238,6 @@ var ScriptEventManager = cc.Class({
     }
 });
 
-module.exports = ScriptEventManager;
+module.exports = ViewEvent;
 
 cc._RF.pop();

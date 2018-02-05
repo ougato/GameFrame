@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '548bfwgpEZNqLvhPZ3Cgrp4', 'Test');
-// Script_/Test.js
+// Script/Test.js
 
 "use strict";
 

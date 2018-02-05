@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '0ee57zXaDxIJ6QzjZT6fgiZ', 'Utils');
-// Script_/Core/Utils/Utils.js
+// Script/Core/Utils/Utils.js
 
 "use strict";
 
@@ -118,7 +118,7 @@ var Utils = cc.Class({
      * @param value
      * @returns {boolean}
      */
-    isBooleam: function isBooleam(value) {
+    isBoolean: function isBoolean(value) {
         var flag = false;
         if (typeof value === "boolean") {
             flag = true;

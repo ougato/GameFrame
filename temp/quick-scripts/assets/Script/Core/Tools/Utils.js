@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Core/Utils/Utils.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Script/Core/Tools/Utils.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, '0ee57zXaDxIJ6QzjZT6fgiZ', 'Utils', __filename);
-// Script_/Core/Utils/Utils.js
+// Script/Core/Utils/Utils.js
 
 "use strict";
 
@@ -118,7 +118,7 @@ var Utils = cc.Class({
      * @param value
      * @returns {boolean}
      */
-    isBooleam: function isBooleam(value) {
+    isBoolean: function isBoolean(value) {
         var flag = false;
         if (typeof value === "boolean") {
             flag = true;

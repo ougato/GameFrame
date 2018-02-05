@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '884b6YEb75OFL4+TIRMYQuE', 'DefMsg');
-// Script_/Core/Define/DefMsg.js
+// Script/Core/Define/DefMsg.js
 
 "use strict";
 
@@ -20,7 +20,7 @@ var DefMsg = cc.Class({
     statics: {
         /**
          * 获取实例
-         * @returns {DefMsg}
+         * @returns {object}
          */
         getInstance: function getInstance() {
             if (instance === null) {

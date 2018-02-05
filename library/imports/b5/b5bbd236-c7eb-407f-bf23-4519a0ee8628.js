@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'b5bbdI2x+tAf78jRRmg7oYo', 'ScriptEventManager');
-// Script_/Core/Manager/Event/ScriptEventManager.js
+// Script/Core/Manager_Deprecated/Event/ScriptEventManager.js
 
 "use strict";
 
